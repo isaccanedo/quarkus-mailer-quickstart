@@ -1,4 +1,4 @@
-# Getting started with the Quarkus Mailer
+# Introdução ao Quarkus Mailer
 
 * Quarkus guide: https://quarkus.io/guides/mailer
 
