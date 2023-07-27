@@ -9,13 +9,13 @@ Ele segue as instruções do guia de primeiros passos, mas também contém algun
 * [using type safe template](src/main/java/org/acme/extra/TypeSafeMailResource.java)
 * [using attachments](src/main/java/org/acme/extra/ExtraMailResource.java)
 
-## Prerequisites
+## Pré-requisitos
 
-1. You need to generate an application password to use GMail from the application.
-Follow these [instructions](https://support.google.com/mail/answer/185833) to create the password. 
+1. Você precisa gerar uma senha de aplicativo para usar o Gmail a partir do aplicativo.
+Siga estas [instruções](https://support.google.com/mail/answer/185833) para criar a senha.
 
-2. You need Java 11+.
-3. You need GraalVM and `native-image` installed and configured. Follows the [instructions](https://quarkus.io/guides/building-native-image) to download, install, and configure GraalVM.
+2. Você precisa do Java 11+.
+3. Você precisa do GraalVM e do `native-image` instalados e configurados. Siga as [instruções](https://quarkus.io/guides/building-native-image) para baixar, instalar e configurar o GraalVM.
 
 ## Building the application
 
