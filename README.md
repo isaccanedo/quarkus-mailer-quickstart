@@ -17,9 +17,9 @@ Siga estas [instruções](https://support.google.com/mail/answer/185833) para cr
 2. Você precisa do Java 11+.
 3. Você precisa do GraalVM e do `native-image` instalados e configurados. Siga as [instruções](https://quarkus.io/guides/building-native-image) para baixar, instalar e configurar o GraalVM.
 
-## Building the application
+## Construindo o aplicativo
 
-Launch the Maven build on the checked-out sources of this demo:
+Inicie a compilação do Maven nas fontes verificadas desta demonstração:
 
 ```shell script
 > ./mvnw package
