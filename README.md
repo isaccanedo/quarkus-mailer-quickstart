@@ -25,7 +25,7 @@ Inicie a compilação do Maven nas fontes verificadas desta demonstração:
 > ./mvnw package
 ```
 
-Generate the native executable using:
+Gere o executável nativo usando:
 
 ```shell script
 > ./mvnw package -Dnative
