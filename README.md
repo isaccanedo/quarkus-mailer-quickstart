@@ -31,13 +31,13 @@ Gere o executável nativo usando:
 > ./mvnw package -Dnative
 ```
 
-The application contains tests that used the _mock_ mailer to avoid sending actual emails during the tests.
-The dev mode also uses this _mock_ mailer.
+O aplicativo contém testes que usaram o mailer _mock_ para evitar o envio de e-mails reais durante os testes.
+O modo dev também usa este mailer _mock_.
 
-## Configuring the application
+## Configurando o aplicativo
 
-The application uses GMAIL.
-Define the following environment properties:
+O aplicativo usa GMAIL.
+Defina as seguintes propriedades do ambiente:
 
 * `QUARKUS_MAILER_USERNAME` - your Google email address
 * `QUARKUS_MAILER_FROM` - your Google email address (or alias)
