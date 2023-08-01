@@ -43,9 +43,9 @@ Defina as seguintes propriedades do ambiente:
 * `QUARKUS_MAILER_FROM` - your Google email address (or alias)
 * `QUARKUS_MAILER_PASSWORD` - the application password generated above
 
-### Running the application in JVM mode
+### Executando o aplicativo no modo JVM
 
-Run the application with:
+Execute o aplicativo com:
 
 ```shell script
 > java -jar ./target/quarkus-app/quarkus-run.jar
