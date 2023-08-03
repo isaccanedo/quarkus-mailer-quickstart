@@ -51,30 +51,30 @@ Execute o aplicativo com:
 > java -jar ./target/quarkus-app/quarkus-run.jar
 ```
 
-Thanks to the environment properties defined above, the application should authenticate with Gmail and send the email.
-To send the email, use the `/mail` endpoint.
+Graças às propriedades do ambiente definidas acima, o aplicativo deve se autenticar no Gmail e enviar o e-mail.
+Para enviar o e-mail, use o endpoint `/mail`.
 
-Before doing so:
+Antes de fazer isso:
 
-1. Change the email address used in `src/main/java/org/acme/MailResource.java`, so you can receive the email
-2. If you want to send an email (and not just simulate it), add `quarkus.mailer.mock=false` to the `src/main/resources/application.properties` file
+1. Altere o endereço de e-mail usado em `src/main/java/org/acme/MailResource.java`, para que você possa receber o e-mail
+2. Se você deseja enviar um e-mail (e não apenas simular), adicione `quarkus.mailer.mock=false` ao arquivo `src/main/resources/application.properties`
 
-Then, in a terminal use
+Em seguida, em um terminal, use
 
 ```shell script
 curl -v :8080/mail
 ```
 
-### Running the application as a native executable
+### Executando o aplicativo como um executável nativo
 
-You can also create a native executable from this application without making any
-source code changes. A native executable removes the dependency on the JVM:
-everything needed to run the application on the target platform is included in
-the executable, allowing the application to run with minimal resource overhead.
+Você também pode criar um executável nativo a partir deste aplicativo sem fazer nenhum
+alterações no código-fonte. Um executável nativo remove a dependência da JVM:
+tudo o que é necessário para executar o aplicativo na plataforma de destino está incluído no
+o executável, permitindo que o aplicativo seja executado com sobrecarga mínima de recursos.
 
-Compiling a native executable takes a bit longer, as GraalVM performs additional
-steps to remove unnecessary code paths. Use the  `native` profile to compile a
-native executable:
+A compilação de um executável nativo demora um pouco mais, pois o GraalVM executa
+etapas para remover caminhos de código desnecessários. Use o perfil `native` para compilar um
+executável nativo:
 
 ```shell script
 > ./mvnw package -Dnative
