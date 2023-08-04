@@ -80,7 +80,7 @@ executável nativo:
 > ./mvnw package -Dnative
 ```
 
-After getting a cup of coffee, you'll be able to run this executable directly:
+Depois de tomar uma xícara de café, você poderá executar este executável diretamente:
 
 ```shell script
 > ./target/mailer-quickstart-1.0.0-SNAPSHOT-runner
