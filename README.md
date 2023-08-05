@@ -86,7 +86,7 @@ Depois de tomar uma xícara de café, você poderá executar este executável di
 > ./target/mailer-quickstart-1.0.0-SNAPSHOT-runner
 ```
 
-Then send an email using the same _curl_ command. 
+Em seguida, envie um e-mail usando o mesmo comando _curl_.
 
 
 ## Other demos
