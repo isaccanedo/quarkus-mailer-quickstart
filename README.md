@@ -89,11 +89,11 @@ Depois de tomar uma xícara de café, você poderá executar este executável di
 Em seguida, envie um e-mail usando o mesmo comando _curl_.
 
 
-## Other demos
+## Outras demonstrações
 
-Before running the other demos, don't forget to edit the code to use your email address.
+Antes de executar as outras demos, não se esqueça de editar o código para usar seu endereço de e-mail.
 
-### Using attachments
+### Usando anexos
 
 * Code: [using attachments](src/main/java/org/acme/extra/ExtraMailResource.java)
 * Command: `curl -v http://localhost:8080/extra/attachment`
