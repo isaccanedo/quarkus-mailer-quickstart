@@ -104,7 +104,7 @@ Antes de executar as outras demos, não se esqueça de editar o código para usa
 * Template: [template](src/main/resources/templates/ExtraMailResource/hello.html)  
 * Command: `curl -v http://localhost:8080/extra/template`
 
-### Using type-safe template
+### Usando modelo de tipo seguro
 
 * Code: [using type safe template](src/main/java/org/acme/extra/TypeSafeMailResource.java)
 * Template: [template](src/main/resources/templates/TypeSafeMailResource/hello.html)
