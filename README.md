@@ -95,8 +95,8 @@ Antes de executar as outras demos, não se esqueça de editar o código para usa
 
 ### Usando anexos
 
-* Code: [using attachments](src/main/java/org/acme/extra/ExtraMailResource.java)
-* Command: `curl -v http://localhost:8080/extra/attachment`
+* Código: [using attachments](src/main/java/org/acme/extra/ExtraMailResource.java)
+* Commando: `curl -v http://localhost:8080/extra/attachment`
 
 ### Usando modelo
 
