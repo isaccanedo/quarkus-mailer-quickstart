@@ -100,9 +100,9 @@ Antes de executar as outras demos, não se esqueça de editar o código para usa
 
 ### Usando modelo
 
-* Code: [using template](src/main/java/org/acme/extra/ExtraMailResource.java)
+* Código: [using template](src/main/java/org/acme/extra/ExtraMailResource.java)
 * Template: [template](src/main/resources/templates/ExtraMailResource/hello.html)  
-* Command: `curl -v http://localhost:8080/extra/template`
+* Commando: `curl -v http://localhost:8080/extra/template`
 
 ### Usando modelo de tipo seguro
 
