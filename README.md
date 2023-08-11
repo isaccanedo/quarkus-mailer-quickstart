@@ -39,9 +39,9 @@ O modo dev também usa este mailer _mock_.
 O aplicativo usa GMAIL.
 Defina as seguintes propriedades do ambiente:
 
-* `QUARKUS_MAILER_USERNAME` - your Google email address
-* `QUARKUS_MAILER_FROM` - your Google email address (or alias)
-* `QUARKUS_MAILER_PASSWORD` - the application password generated above
+* `QUARKUS_MAILER_USERNAME` - seu endereço de e-mail do Google
+* `QUARKUS_MAILER_FROM` - seu endereço de e-mail do Google (ou alias)
+* `QUARKUS_MAILER_PASSWORD` - a senha do aplicativo gerada acima
 
 ### Executando o aplicativo no modo JVM
 
