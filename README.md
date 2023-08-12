@@ -1,6 +1,6 @@
 # Introdução ao Quarkus Mailer
 
-* Quarkus guide: https://quarkus.io/guides/mailer
+* Guia do Quarkus: https://quarkus.io/guides/mailer
 
 Este é um aplicativo mínimo que envia e-mails com o Gmail.
 Ele segue as instruções do guia de primeiros passos, mas também contém alguns exemplos extras:
