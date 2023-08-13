@@ -106,9 +106,9 @@ Antes de executar as outras demos, não se esqueça de editar o código para usa
 
 ### Usando modelo de tipo seguro
 
-* Code: [using type safe template](src/main/java/org/acme/extra/TypeSafeMailResource.java)
+* Código: [using type safe template](src/main/java/org/acme/extra/TypeSafeMailResource.java)
 * Template: [template](src/main/resources/templates/TypeSafeMailResource/hello.html)
-* Command: `curl -v http://localhost:8080/type-safe`
+* Commando: `curl -v http://localhost:8080/type-safe`
 
 
 
