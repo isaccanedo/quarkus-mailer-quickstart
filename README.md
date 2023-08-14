@@ -3,7 +3,7 @@
 * Guia do Quarkus: https://quarkus.io/guides/mailer
 
 Este é um aplicativo mínimo que envia e-mails com o Gmail.
-Ele segue as instruções do guia de primeiros passos, mas também contém alguns exemplos extras:
+Ele segue as instruções do guia de primeiros passos, mas também contém alguns exemplos extras para você seguir:
 
 * [usando template](src/main/java/org/acme/extra/ExtraMailResource.java)
 * [usando modelo seguro de tipo](src/main/java/org/acme/extra/TypeSafeMailResource.java)
